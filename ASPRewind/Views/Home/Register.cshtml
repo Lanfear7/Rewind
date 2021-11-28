@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewData["Title"] = "Register";
+}
+<div class="register-page">
+    <div class="register">
+        <h2>Create Your Account</h2>
+        <form action="/" method="post">
+            <input type="text" name="fname" placeholder="First Name" />
+            <input type="text" name="lname" placeholder="Last Name" />
+            <input type="email" name="email" placeholder="Email address" />
+            <input type="text" name="username" placeholder="Username" />
+            <input type="password" name="password" placeholder="Password" />
+            <input type="checkbox" name="accept" value="">
+            <input type="submit" name="register" value="Create Account" />
+        </form>
+    </div>
+    <div class="signin">
+        <h2>Sign In</h2>
+        <form action="/" method="post">
+            <input type="text" name="username" placeholder="Username" />
+            <input type="password" name="password" placeholder="Password" />
+            <input type="submit" name="signin" value="Sign In" />
+        </form>
+    </div>
+</div>

@@ -11,11 +11,23 @@ a.navbar-brand {
 a {
   color: #0366d6;
 }
-
+.caps{
+    text-transform: uppercase;
+}
+h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+}
 .btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    color: #fff;
+    background-color: #189E88;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+}
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #157764;
+    text-decoration: none;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
@@ -68,4 +80,28 @@ body {
   width: 100%;
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
+}
+
+
+.home-banner{
+    text-align: center;
+    padding-top: 100px;
+    text-transform: uppercase;
+}
+.home-banner h2{
+    margin-bottom: 50px;
+}
+
+.register-page{
+    display: flex;
+}
+.register{
+    display: flex;
+    width: 500px;
+    flex-basis: 60%;
+}
+.signin {
+    display: flex;
+    flex-basis: 40%;
+    width: 400px;
 }

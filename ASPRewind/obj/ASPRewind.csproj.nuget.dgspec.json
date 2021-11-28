@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\brenn\\OneDrive\\Desktop\\BCIT SSD\\ASP\\Rewind(groupProject)\\ASPRewind\\ASPRewind.csproj": {}
+    "C:\\Users\\mykel\\Documents\\GitHub\\Rewind\\ASPRewind\\ASPRewind.csproj": {}
   },
   "projects": {
-    "C:\\Users\\brenn\\OneDrive\\Desktop\\BCIT SSD\\ASP\\Rewind(groupProject)\\ASPRewind\\ASPRewind.csproj": {
+    "C:\\Users\\mykel\\Documents\\GitHub\\Rewind\\ASPRewind\\ASPRewind.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brenn\\OneDrive\\Desktop\\BCIT SSD\\ASP\\Rewind(groupProject)\\ASPRewind\\ASPRewind.csproj",
+        "projectUniqueName": "C:\\Users\\mykel\\Documents\\GitHub\\Rewind\\ASPRewind\\ASPRewind.csproj",
         "projectName": "ASPRewind",
-        "projectPath": "C:\\Users\\brenn\\OneDrive\\Desktop\\BCIT SSD\\ASP\\Rewind(groupProject)\\ASPRewind\\ASPRewind.csproj",
-        "packagesPath": "C:\\Users\\brenn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brenn\\OneDrive\\Desktop\\BCIT SSD\\ASP\\Rewind(groupProject)\\ASPRewind\\obj\\",
+        "projectPath": "C:\\Users\\mykel\\Documents\\GitHub\\Rewind\\ASPRewind\\ASPRewind.csproj",
+        "packagesPath": "C:\\Users\\mykel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mykel\\Documents\\GitHub\\Rewind\\ASPRewind\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\brenn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mykel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
